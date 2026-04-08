@@ -1,0 +1,8 @@
+services:
+  build:
+    image: wg21-build
+    build:
+      context: ./docker
+    volumes:
+      - .:/opt/build
+    command: ""
